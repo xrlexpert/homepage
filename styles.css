@@ -73,7 +73,7 @@ button:focus-visible {
 }
 
 .container {
-  width: min(100% - 2rem, var(--max-width));
+  width: min(80%, var(--max-width));
   margin-inline: auto;
 }
 
@@ -320,10 +320,9 @@ p {
 }
 
 .pub-list {
-  margin: 1.2rem 0 0;
-  padding-left: 1.2rem;
+  margin: clamp(0.6rem, 2vw, 1.2rem) 0 0; 
   display: grid;
-  gap: 1rem;
+  gap: clamp(0.8rem, 2vh, 1rem); 
 }
 
 .pub-list li {
@@ -875,7 +874,7 @@ address {
   overflow: hidden;
   background: #ffffff;
   flex-shrink: 0;
-  margin-left: 1rem;
+  margin: clamp(0.3rem, 2vw, 1rem);
 }
 
 .pub-img-wrap img {
