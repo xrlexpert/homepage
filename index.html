@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XING Ruilong</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="fast-nav">
+      <div class="container nav-container">
+        <div class="nav-title">RUILONG XING'S WEBPAGE</div>
+        <div class="nav-links">
+          <a href="#about" class="nav-link">About</a>
+          <a href="#publications" class="nav-link">Publications</a>
+          <a href="#awards" class="nav-link">Awards</a>
+        </div>
+      </div>
+    </nav>
+
+    <main id="main-content">
+      <section id="about" class="header-container">
+
+        <!-- Motion 开关按钮 -->
+        <div class="header-motion-controls">
+          <button class="header-motion-toggle" type="button" aria-pressed="true">
+            Motion On
+          </button>
+        </div>
+
+        <div class="container header-content-stack">
+          <div class="header-content header-content-base">
+            <div class="header-text">
+              <h1 class="header-title">XING Ruilong</h1>
+              <p class="header-description">
+                Hi! I am a master student majoring in Computer Science at
+                <a href="https://www.hitsz.edu.cn/">HITSZ</a> advised by <a href="https://scholar.google.com/citations?user=mEjhz-IAAAAJ">Prof. Zhuotao Tian</a>. Before that, I received my bachelor's degree from
+                <a href="https://www.hitsz.edu.cn/">HITSZ</a> in 2026.
+                <br /><br />
+                I focus on
+                <strong>Efficient AI, Multi-Modal learning</strong>.
+              </p>
+              <div class="header-links">
+                <a href="mailto:hiroxrl@outlook.com" class="header-link">Email</a>
+                <a href="https://github.com/xrlexpert" class="header-link">Github</a>
+                <a href="https://www.xiaohongshu.com/user/profile/5c13d4eb000000000702c877" class="header-link">Rednote</a>
+                <a href="https://xingruilong-blog.top" class="header-link">Blog</a>
+              </div>
+            </div>
+            <div class="header-image">
+              <img
+                src="assets/profile.png"
+                alt="XING Ruilong"
+                width="420"
+                height="420"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- 蒙版层：中文内容，跟随鼠标光晕裁切显示 -->
+        <div class="header-mask-layer" aria-hidden="true">
+          <div class="container header-content-stack">
+          <div class="header-content header-content-masked">
+            <div class="header-text">
+              <h1 class="header-title">邢瑞龙</h1>
+              <p class="header-description">
+                你好！我目前是
+                <a href="https://www.hitsz.edu.cn/">哈尔滨工业大学（深圳）</a>
+                计算机科学与技术专业的硕士研究生，导师为 <a href="https://scholar.google.com/citations?user=mEjhz-IAAAAJ">田倬韬</a> 教授。在此之前，我于 2026 年获得 <a href="https://www.hitsz.edu.cn/">哈尔滨工业大学（深圳）</a> 计算机学士学位。
+                <br /><br />
+                我的研究方向聚焦
+                <strong>高效AI, 多模态学习</strong>。
+              </p>
+              <div class="header-links">
+                <a href="mailto:hiroxrl@outlook.com" class="header-link">邮箱</a>
+                <a href="https://github.com/xrlexpert" class="header-link">代码</a>
+                <a href="https://www.xiaohongshu.com/user/profile/5c13d4eb000000000702c877" class="header-link">小红书</a>
+                <a href="https://xingruilong-blog.top" class="header-link">博客</a>
+              </div>
+            </div>
+            <div class="header-image">
+              <img
+                src="assets/profile.png"
+                alt="XING Ruilong"
+                width="420"
+                height="420"
+              />
+            </div>
+          </div>
+          </div>
+        </div>
+
+        <!-- 底部提示 -->
+        <span class="header-motion-hint header-motion-hint-bottom">
+          Double-click to toggle motion&nbsp;/&nbsp;双击切换动效
+        </span>
+      </section>
+
+      <!-- Publications -->
+      <section id="publications" class="pub-section">
+        <div class="container">
+          <h2 class="pub-section-title">Publications</h2>
+
+          <div class="pub-list">
+             <!-- FlahVID -->
+             <article class="pub-item">
+              <div class="pub-img-wrap">
+                <img src="publications/FlashVID/overview.png" alt="Paper 2 teaser" />
+              </div>
+              <div class="pub-body">
+                <h3 class="pub-title">
+                  FlashVID: Efficient Video Large Language Models via Training-free Tree-Based Spatiotemporal Token Merging
+                </h3>
+                <p class="pub-authors">
+                  Ziyang Fan, Keyu Chen, <span class="pub-me">Ruilong Xing</span>, Yulin Li, Li Jiang, Zhuotao Tian
+                </p>
+                <p class="pub-venue">ICLR, 2026 <strong class="pub-venue-highlight">Oral</strong></p>
+                <div class="pub-links">
+                  <a href="https://arxiv.org/abs/2602.08024" class="pub-link">Paper</a>
+                  <a href="https://github.com/Fanziyang-v/FlashVID" class="pub-link">Code</a>
+                  <a href="https://fanziyang-v.github.io/FlashVID/" class="pub-link">Project</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- C2AD -->
+            <article class="pub-item">
+              <div class="pub-img-wrap">
+                <img src="publications/C2AD/overview.png" alt="C2AD" />
+              </div>
+              <div class="pub-body">
+                <h3 class="pub-title">
+                  C<sup>2</sup>AD: Dual Consistency Learning for Zero-Shot Anomaly Detection
+                </h3>
+                <p class="pub-authors">
+                  Xiaoling Wang, <span class="pub-me">Ruilong Xing</span>, Zhuotao Tian, Yijun Liu, Senqiao Yang, Yaowei Wang, Jingyong Su
+                </p>
+                <p class="pub-venue">ICASSP, 2025</p>
+                <div class="pub-links">
+                  <a href="https://ieeexplore.ieee.org/document/10888992" class="pub-link">Paper</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Awards -->
+      <section id="awards" class="awards-section">
+        <div class="container">
+          <h2 class="awards-section-title">Awards</h2>
+          <ul>
+            <li>National Scholarship, 2024-2025</li>
+            <li>HITSZ College Scholarships for Academic Excellence, 2022-2023, 2023-2024, 2024-2025</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
